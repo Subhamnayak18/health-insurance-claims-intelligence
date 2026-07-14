@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.venv/
+venv/
+
+# Environment and credentials
+.env
+.env.*
+*.pem
+*.key
+secrets/
+credentials/
+
+# Raw and processed datasets
+data/raw/*
+!data/raw/README.md
+data/processed/*
+data/synthetic/*
+*.zip
+*.7z
+*.parquet
+
+# Large analytics files
+*.pbix
+*.pbit
+*.bak
+
+# Model files
+*.pkl
+*.joblib
+*.model
+
+# Temporary files
+*.tmp
+*.log
+~$*
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
