@@ -1,0 +1,14 @@
+metric,value,expected_rule,status
+total_claims,514225,Greater than zero,PASS
+unique_claim_keys,514225,Equal to total claims,PASS
+duplicate_claim_keys,0,0,PASS
+financial_hierarchy_violations,0,0,PASS
+negative_amount_rows,0,0,PASS
+rejected_claims_with_positive_payment,0,0,PASS
+open_claims_with_decision_date,0,0,PASS
+final_claims_without_decision_date,0,0,PASS
+status_count_approved,343974,Informational,INFO
+status_count_manual_review,27097,Informational,INFO
+status_count_partially_approved,60171,Informational,INFO
+status_count_pending,44311,Informational,INFO
+status_count_rejected,38672,Informational,INFO
