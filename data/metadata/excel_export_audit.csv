@@ -1,0 +1,3 @@
+export_name,row_count,column_count,duplicate_claim_keys,file_size_mb,purpose
+claim_operations_full,514225,54,0,214.48,Power Query and Data Model
+claim_operations_sample,50000,54,0,20.86,Worksheet formulas and validation
