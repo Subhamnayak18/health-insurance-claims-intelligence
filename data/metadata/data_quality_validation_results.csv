@@ -1,0 +1,26 @@
+dataset_name,check_name,status,severity,failed_rows,total_rows,failure_percentage,description
+beneficiary_history,DUPLICATE_BENEFICIARY_YEAR_KEY,PASS,Critical,0,86917,0.0,BENE_ID and BENEFICIARY_YEAR should uniquely identify a beneficiary record.
+carrier,MISSING_BENE_ID,PASS,Critical,0,1121004,0.0,Claim rows must contain a beneficiary identifier.
+carrier,MISSING_CLM_ID,PASS,Critical,0,1121004,0.0,Claim rows must contain a claim identifier.
+carrier,INVALID_FROM_DATE,PASS,Critical,0,1121004,0.0,Claim start dates must be valid dates.
+carrier,INVALID_THROUGH_DATE,PASS,Critical,0,1121004,0.0,Claim end dates must be valid dates.
+carrier,CLAIM_DATE_ORDER,PASS,Critical,0,1121004,0.0,Claim start date must not be after claim end date.
+carrier,NEGATIVE_PAYMENT_AMOUNT,PASS,Warning,0,1121004,0.0,Negative values may represent adjustments or reversals and require review.
+carrier,DUPLICATE_CLAIM_LINE_KEY,PASS,Critical,0,1121004,0.0,The combination of CLM_ID and LINE_NUM should identify a claim line.
+carrier,UNMATCHED_BENEFICIARY_YEAR,PASS,Warning,0,1121004,0.0,Claim beneficiary and claim year should match a beneficiary-year record.
+inpatient,MISSING_BENE_ID,PASS,Critical,0,58066,0.0,Claim rows must contain a beneficiary identifier.
+inpatient,MISSING_CLM_ID,PASS,Critical,0,58066,0.0,Claim rows must contain a claim identifier.
+inpatient,INVALID_FROM_DATE,PASS,Critical,0,58066,0.0,Claim start dates must be valid dates.
+inpatient,INVALID_THROUGH_DATE,PASS,Critical,0,58066,0.0,Claim end dates must be valid dates.
+inpatient,CLAIM_DATE_ORDER,PASS,Critical,0,58066,0.0,Claim start date must not be after claim end date.
+inpatient,NEGATIVE_PAYMENT_AMOUNT,PASS,Warning,0,58066,0.0,Negative values may represent adjustments or reversals and require review.
+inpatient,DUPLICATE_CLAIM_LINE_KEY,PASS,Critical,0,58066,0.0,The combination of CLM_ID and CLM_LINE_NUM should identify a claim line.
+inpatient,UNMATCHED_BENEFICIARY_YEAR,PASS,Warning,0,58066,0.0,Claim beneficiary and claim year should match a beneficiary-year record.
+outpatient,MISSING_BENE_ID,PASS,Critical,0,575092,0.0,Claim rows must contain a beneficiary identifier.
+outpatient,MISSING_CLM_ID,PASS,Critical,0,575092,0.0,Claim rows must contain a claim identifier.
+outpatient,INVALID_FROM_DATE,PASS,Critical,0,575092,0.0,Claim start dates must be valid dates.
+outpatient,INVALID_THROUGH_DATE,PASS,Critical,0,575092,0.0,Claim end dates must be valid dates.
+outpatient,CLAIM_DATE_ORDER,PASS,Critical,0,575092,0.0,Claim start date must not be after claim end date.
+outpatient,NEGATIVE_PAYMENT_AMOUNT,PASS,Warning,0,575092,0.0,Negative values may represent adjustments or reversals and require review.
+outpatient,DUPLICATE_CLAIM_LINE_KEY,PASS,Critical,0,575092,0.0,The combination of CLM_ID and CLM_LINE_NUM should identify a claim line.
+outpatient,UNMATCHED_BENEFICIARY_YEAR,PASS,Warning,0,575092,0.0,Claim beneficiary and claim year should match a beneficiary-year record.

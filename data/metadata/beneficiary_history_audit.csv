@@ -1,0 +1,12 @@
+beneficiary_year,row_count,missing_bene_id,duplicate_beneficiary_year_keys,output_file
+2015,5975,0,0,beneficiary_2015.parquet
+2016,6288,0,0,beneficiary_2016.parquet
+2017,6613,0,0,beneficiary_2017.parquet
+2018,7002,0,0,beneficiary_2018.parquet
+2019,7446,0,0,beneficiary_2019.parquet
+2020,7837,0,0,beneficiary_2020.parquet
+2021,8246,0,0,beneficiary_2021.parquet
+2022,8671,0,0,beneficiary_2022.parquet
+2023,9179,0,0,beneficiary_2023.parquet
+2024,9660,0,0,beneficiary_2024.parquet
+2025,10000,0,0,beneficiary_2025.parquet

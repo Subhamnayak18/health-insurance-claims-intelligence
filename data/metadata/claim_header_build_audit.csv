@@ -1,0 +1,4 @@
+dataset_name,source_line_rows,claim_header_rows,unique_claim_keys,line_count_reconciliation,minimum_claim_date,maximum_claim_date,claim_payment_total
+carrier,1121004,90705,90705,1121004,2015-03-06,2023-03-02,127158142.15
+inpatient,58066,20867,20867,58066,2015-02-25,2023-03-02,141046614.08
+outpatient,575092,402653,402653,575092,2015-03-06,2023-03-02,730871561.85

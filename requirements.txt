@@ -2,4 +2,4 @@ pandas
 numpy
 openpyxl
 matplotlib
-jupyter
+jupyterpyarrow

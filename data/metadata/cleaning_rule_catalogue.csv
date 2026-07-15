@@ -1,0 +1,641 @@
+dataset_name,column_name,business_role,missing_percentage,unique_count,recommended_action,priority,decision_reason,example_values
+beneficiary_2023,BENE_ID,identifier,0.0,5000,KEEP_CRITICAL,High,"Required for relationships, claim grain or core KPI calculations.",-10000010254618 | -10000010254647 | -10000010254653
+beneficiary_2023,STATE_CODE,geography,0.0,32,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,01 | 02 | 03
+beneficiary_2023,COUNTY_CD,other,0.0,926,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,1500 | 1410 | 1400
+beneficiary_2023,ZIP_CD,geography,0.0,2945,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,36109 | 35756 | 36801
+beneficiary_2023,BENE_BIRTH_DT,date,0.0,4452,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,16-Aug-1999 | 14-Aug-1990 | 18-Mar-1982
+beneficiary_2023,SEX_IDENT_CD,other,0.0,2,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,1 | 2
+beneficiary_2023,BENE_RACE_CD,other,0.0,6,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,1 | 2 | 4
+beneficiary_2023,ENTLMT_RSN_ORIG,other,0.0,4,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,1 | 0 | 2
+beneficiary_2023,ENTLMT_RSN_CURR,other,0.0,4,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,1 | 0 | 2
+beneficiary_2023,ESRD_IND,indicator,0.0,2,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,0 | Y
+beneficiary_2023,BENE_PTA_TRMNTN_CD,other,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,0
+beneficiary_2023,BENE_PTB_TRMNTN_CD,other,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,0
+beneficiary_2023,BENE_DEATH_DT,date,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+beneficiary_2023,BENE_ENROLLMT_REF_YR,other,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,2023
+beneficiary_2023,BENE_HI_CVRAGE_TOT_MONS,other,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,12
+beneficiary_2023,BENE_SMI_CVRAGE_TOT_MONS,other,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,12
+beneficiary_2023,BENE_STATE_BUYIN_TOT_MONS,geography,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,12
+beneficiary_2023,BENE_HMO_CVRAGE_TOT_MONS,other,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,0
+beneficiary_2023,RDS_CVRG_MONS,other,0.0,4,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,0 | 12 | 2
+beneficiary_2023,ENRL_SRC,other,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,CME
+beneficiary_2023,SAMPLE_GROUP,other,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+beneficiary_2023,ENHANCED_FIVE_PERCENT_FLAG,indicator,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample., 
+beneficiary_2023,CRNT_BIC_CD,other,0.0,22,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,C1 | A | T
+beneficiary_2023,AGE_AT_END_REF_YR,other,0.0,112,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,24 | 33 | 41
+beneficiary_2023,COVSTART,other,0.0,3996,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,08-Sep-1999 | 06-Feb-2014 | 25-Jan-1984
+beneficiary_2023,DUAL_ELGBL_MONS,other,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,0
+beneficiary_2023,STATE_CNTY_FIPS_CD_01,geography,16.86,852,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,1101 | 1083 | 1081
+beneficiary_2023,STATE_CNTY_FIPS_CD_02,geography,16.86,852,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,1101 | 1083 | 1081
+beneficiary_2023,STATE_CNTY_FIPS_CD_03,geography,16.86,852,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,1101 | 1083 | 1081
+beneficiary_2023,STATE_CNTY_FIPS_CD_04,geography,16.86,852,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,1101 | 1083 | 1081
+beneficiary_2023,STATE_CNTY_FIPS_CD_05,geography,16.86,852,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,1101 | 1083 | 1081
+beneficiary_2023,STATE_CNTY_FIPS_CD_06,geography,16.86,852,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,1101 | 1083 | 1081
+beneficiary_2023,STATE_CNTY_FIPS_CD_07,geography,16.86,852,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,1101 | 1083 | 1081
+beneficiary_2023,STATE_CNTY_FIPS_CD_08,geography,16.86,852,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,1101 | 1083 | 1081
+beneficiary_2023,STATE_CNTY_FIPS_CD_09,geography,16.86,852,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,1101 | 1083 | 1081
+beneficiary_2023,STATE_CNTY_FIPS_CD_10,geography,16.86,852,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,1101 | 1083 | 1081
+beneficiary_2023,STATE_CNTY_FIPS_CD_11,geography,16.86,852,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,1101 | 1083 | 1081
+beneficiary_2023,STATE_CNTY_FIPS_CD_12,geography,16.86,852,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,1101 | 1083 | 1081
+beneficiary_2023,VALID_DEATH_DT_SW,date,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+beneficiary_2023,RTI_RACE_CD,other,0.0,6,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,1 | 2 | 4
+beneficiary_2023,MDCR_STATUS_CODE_01,other,0.0,5,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,20 | 10 | 31
+beneficiary_2023,MDCR_STATUS_CODE_02,other,0.0,5,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,20 | 10 | 31
+beneficiary_2023,MDCR_STATUS_CODE_03,other,0.0,5,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,20 | 10 | 31
+beneficiary_2023,MDCR_STATUS_CODE_04,other,0.0,5,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,20 | 10 | 31
+beneficiary_2023,MDCR_STATUS_CODE_05,other,0.0,5,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,20 | 10 | 31
+beneficiary_2023,MDCR_STATUS_CODE_06,other,0.0,5,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,20 | 10 | 31
+beneficiary_2023,MDCR_STATUS_CODE_07,other,0.0,5,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,20 | 10 | 31
+beneficiary_2023,MDCR_STATUS_CODE_08,other,0.0,5,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,20 | 10 | 31
+beneficiary_2023,MDCR_STATUS_CODE_09,other,0.0,5,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,20 | 10 | 31
+beneficiary_2023,MDCR_STATUS_CODE_10,other,0.0,5,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,20 | 10 | 31
+beneficiary_2023,MDCR_STATUS_CODE_11,other,0.0,5,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,20 | 10 | 31
+beneficiary_2023,MDCR_STATUS_CODE_12,other,0.0,5,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,20 | 10 | 31
+beneficiary_2023,PTD_PLAN_CVRG_MONS,other,0.0,13,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,12 | 0 | 5
+beneficiary_2023,MDCR_ENTLMT_BUYIN_IND_01,indicator,0.0,3,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,3 | C | 1
+beneficiary_2023,MDCR_ENTLMT_BUYIN_IND_02,indicator,0.0,3,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,3 | C | 1
+beneficiary_2023,MDCR_ENTLMT_BUYIN_IND_03,indicator,0.0,3,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,3 | C | 1
+beneficiary_2023,MDCR_ENTLMT_BUYIN_IND_04,indicator,0.0,3,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,3 | C | 1
+beneficiary_2023,MDCR_ENTLMT_BUYIN_IND_05,indicator,0.0,3,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,3 | C | 1
+beneficiary_2023,MDCR_ENTLMT_BUYIN_IND_06,indicator,0.0,3,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,3 | C | 1
+beneficiary_2023,MDCR_ENTLMT_BUYIN_IND_07,indicator,0.0,3,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,3 | C | 1
+beneficiary_2023,MDCR_ENTLMT_BUYIN_IND_08,indicator,0.0,3,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,3 | C | 1
+beneficiary_2023,MDCR_ENTLMT_BUYIN_IND_09,indicator,0.0,3,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,3 | C | 1
+beneficiary_2023,MDCR_ENTLMT_BUYIN_IND_10,indicator,0.0,3,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,3 | C | 1
+beneficiary_2023,MDCR_ENTLMT_BUYIN_IND_11,indicator,0.0,3,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,3 | C | 1
+beneficiary_2023,MDCR_ENTLMT_BUYIN_IND_12,indicator,0.0,3,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,3 | C | 1
+beneficiary_2023,HMO_IND_01,indicator,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+beneficiary_2023,HMO_IND_02,indicator,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+beneficiary_2023,HMO_IND_03,indicator,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+beneficiary_2023,HMO_IND_04,indicator,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+beneficiary_2023,HMO_IND_05,indicator,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+beneficiary_2023,HMO_IND_06,indicator,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+beneficiary_2023,HMO_IND_07,indicator,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+beneficiary_2023,HMO_IND_08,indicator,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+beneficiary_2023,HMO_IND_09,indicator,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+beneficiary_2023,HMO_IND_10,indicator,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+beneficiary_2023,HMO_IND_11,indicator,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+beneficiary_2023,HMO_IND_12,indicator,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+beneficiary_2023,PTC_CNTRCT_ID_01,other,40.96,10,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,Y0008 | Y0003 | Y0006
+beneficiary_2023,PTC_CNTRCT_ID_02,other,40.96,10,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,Y0008 | Y0003 | Y0006
+beneficiary_2023,PTC_CNTRCT_ID_03,other,40.8,10,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,Y0008 | Y0003 | Y0006
+beneficiary_2023,PTC_CNTRCT_ID_04,other,40.68,10,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,Y0008 | Y0003 | Y0006
+beneficiary_2023,PTC_CNTRCT_ID_05,other,40.66,10,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,Y0008 | Y0003 | Y0006
+beneficiary_2023,PTC_CNTRCT_ID_06,other,40.7,10,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,Y0008 | Y0003 | Y0006
+beneficiary_2023,PTC_CNTRCT_ID_07,other,40.88,10,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,Y0008 | Y0003 | Y0006
+beneficiary_2023,PTC_CNTRCT_ID_08,other,40.74,10,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,Y0008 | Y0003 | Y0006
+beneficiary_2023,PTC_CNTRCT_ID_09,other,40.7,10,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,Y0008 | Y0003 | Y0006
+beneficiary_2023,PTC_CNTRCT_ID_10,other,40.68,10,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,Y0008 | Y0003 | Y0006
+beneficiary_2023,PTC_CNTRCT_ID_11,other,40.6,10,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,Y0008 | Y0003 | Y0006
+beneficiary_2023,PTC_CNTRCT_ID_12,other,40.66,10,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,Y0008 | Y0003 | Y0006
+beneficiary_2023,PTC_PBP_ID_01,other,40.96,5,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,803 | 801 | 802
+beneficiary_2023,PTC_PBP_ID_02,other,40.96,5,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,803 | 801 | 802
+beneficiary_2023,PTC_PBP_ID_03,other,40.8,5,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,803 | 801 | 802
+beneficiary_2023,PTC_PBP_ID_04,other,40.68,5,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,803 | 801 | 802
+beneficiary_2023,PTC_PBP_ID_05,other,40.66,5,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,803 | 801 | 802
+beneficiary_2023,PTC_PBP_ID_06,other,40.7,5,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,803 | 801 | 802
+beneficiary_2023,PTC_PBP_ID_07,other,40.88,5,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,803 | 801 | 802
+beneficiary_2023,PTC_PBP_ID_08,other,40.74,5,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,803 | 801 | 802
+beneficiary_2023,PTC_PBP_ID_09,other,40.7,5,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,803 | 801 | 802
+beneficiary_2023,PTC_PBP_ID_10,other,40.68,5,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,803 | 801 | 802
+beneficiary_2023,PTC_PBP_ID_11,other,40.6,5,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,803 | 801 | 802
+beneficiary_2023,PTC_PBP_ID_12,other,40.66,5,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,803 | 801 | 802
+beneficiary_2023,PTC_PLAN_TYPE_CD_01,other,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+beneficiary_2023,PTC_PLAN_TYPE_CD_02,other,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+beneficiary_2023,PTC_PLAN_TYPE_CD_03,other,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+beneficiary_2023,PTC_PLAN_TYPE_CD_04,other,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+beneficiary_2023,PTC_PLAN_TYPE_CD_05,other,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+beneficiary_2023,PTC_PLAN_TYPE_CD_06,other,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+beneficiary_2023,PTC_PLAN_TYPE_CD_07,other,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+beneficiary_2023,PTC_PLAN_TYPE_CD_08,other,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+beneficiary_2023,PTC_PLAN_TYPE_CD_09,other,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+beneficiary_2023,PTC_PLAN_TYPE_CD_10,other,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+beneficiary_2023,PTC_PLAN_TYPE_CD_11,other,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+beneficiary_2023,PTC_PLAN_TYPE_CD_12,other,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+beneficiary_2023,PTD_CNTRCT_ID_01,other,29.3,11,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,Z0004 | Z0006 | 0
+beneficiary_2023,PTD_CNTRCT_ID_02,other,29.5,11,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,Z0004 | Z0006 | 0
+beneficiary_2023,PTD_CNTRCT_ID_03,other,29.44,11,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,Z0004 | Z0006 | Z0001
+beneficiary_2023,PTD_CNTRCT_ID_04,other,29.54,11,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,Z0004 | Z0006 | Z0001
+beneficiary_2023,PTD_CNTRCT_ID_05,other,29.58,11,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,Z0004 | Z0006 | Z0001
+beneficiary_2023,PTD_CNTRCT_ID_06,other,29.66,11,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,Z0004 | Z0006 | Z0001
+beneficiary_2023,PTD_CNTRCT_ID_07,other,29.54,11,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,Z0004 | Z0006 | Z0001
+beneficiary_2023,PTD_CNTRCT_ID_08,other,29.54,11,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,Z0004 | Z0006 | Z0001
+beneficiary_2023,PTD_CNTRCT_ID_09,other,29.72,11,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,Z0004 | Z0006 | Z0001
+beneficiary_2023,PTD_CNTRCT_ID_10,other,29.98,11,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,Z0004 | Z0006 | Z0001
+beneficiary_2023,PTD_CNTRCT_ID_11,other,30.14,11,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,Z0004 | Z0006 | Z0001
+beneficiary_2023,PTD_CNTRCT_ID_12,other,30.24,10,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,Z0004 | Z0006 | Z0001
+beneficiary_2023,PTD_PBP_ID_01,other,32.92,5,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,804 | 800 | 801
+beneficiary_2023,PTD_PBP_ID_02,other,32.82,5,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,804 | 800 | 801
+beneficiary_2023,PTD_PBP_ID_03,other,32.52,5,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,804 | 800 | 803
+beneficiary_2023,PTD_PBP_ID_04,other,32.36,5,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,804 | 800 | 803
+beneficiary_2023,PTD_PBP_ID_05,other,32.08,5,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,804 | 800 | 803
+beneficiary_2023,PTD_PBP_ID_06,other,31.9,5,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,804 | 800 | 803
+beneficiary_2023,PTD_PBP_ID_07,other,31.54,5,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,804 | 800 | 803
+beneficiary_2023,PTD_PBP_ID_08,other,31.2,5,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,804 | 800 | 803
+beneficiary_2023,PTD_PBP_ID_09,other,31.02,5,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,804 | 800 | 803
+beneficiary_2023,PTD_PBP_ID_10,other,30.82,5,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,804 | 800 | 803
+beneficiary_2023,PTD_PBP_ID_11,other,30.42,5,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,804 | 800 | 803
+beneficiary_2023,PTD_PBP_ID_12,other,30.24,5,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,804 | 800 | 803
+beneficiary_2023,PTD_SGMT_ID_01,other,32.92,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,000
+beneficiary_2023,PTD_SGMT_ID_02,other,32.82,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,000
+beneficiary_2023,PTD_SGMT_ID_03,other,32.52,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,000
+beneficiary_2023,PTD_SGMT_ID_04,other,32.36,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,000
+beneficiary_2023,PTD_SGMT_ID_05,other,32.08,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,000
+beneficiary_2023,PTD_SGMT_ID_06,other,31.9,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,000
+beneficiary_2023,PTD_SGMT_ID_07,other,31.54,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,000
+beneficiary_2023,PTD_SGMT_ID_08,other,31.2,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,000
+beneficiary_2023,PTD_SGMT_ID_09,other,31.02,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,000
+beneficiary_2023,PTD_SGMT_ID_10,other,30.82,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,000
+beneficiary_2023,PTD_SGMT_ID_11,other,30.42,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,000
+beneficiary_2023,PTD_SGMT_ID_12,other,30.24,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,000
+beneficiary_2023,RDS_IND_01,indicator,29.3,3,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,N | 0 | Y
+beneficiary_2023,RDS_IND_02,indicator,29.5,3,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,N | 0 | Y
+beneficiary_2023,RDS_IND_03,indicator,29.44,3,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,N | 0 | Y
+beneficiary_2023,RDS_IND_04,indicator,29.54,3,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,N | 0 | Y
+beneficiary_2023,RDS_IND_05,indicator,29.58,3,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,N | 0 | Y
+beneficiary_2023,RDS_IND_06,indicator,29.66,3,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,N | 0 | Y
+beneficiary_2023,RDS_IND_07,indicator,29.54,3,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,N | 0 | Y
+beneficiary_2023,RDS_IND_08,indicator,29.54,3,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,N | 0 | Y
+beneficiary_2023,RDS_IND_09,indicator,29.72,3,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,N | 0 | Y
+beneficiary_2023,RDS_IND_10,indicator,29.98,3,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,N | 0 | Y
+beneficiary_2023,RDS_IND_11,indicator,30.14,3,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,N | 0 | Y
+beneficiary_2023,RDS_IND_12,indicator,30.24,2,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,N | Y
+beneficiary_2023,DUAL_STUS_CD_01,other,72.66,9,REVIEW_SPARSE,Low,Column is sparse but may apply only to specific claim types.,08 | 00 | 02
+beneficiary_2023,DUAL_STUS_CD_02,other,72.88,9,REVIEW_SPARSE,Low,Column is sparse but may apply only to specific claim types.,08 | 00 | 02
+beneficiary_2023,DUAL_STUS_CD_03,other,73.04,9,REVIEW_SPARSE,Low,Column is sparse but may apply only to specific claim types.,08 | 02 | 03
+beneficiary_2023,DUAL_STUS_CD_04,other,73.28,9,REVIEW_SPARSE,Low,Column is sparse but may apply only to specific claim types.,08 | 02 | 03
+beneficiary_2023,DUAL_STUS_CD_05,other,73.56,9,REVIEW_SPARSE,Low,Column is sparse but may apply only to specific claim types.,08 | 02 | 03
+beneficiary_2023,DUAL_STUS_CD_06,other,73.7,9,REVIEW_SPARSE,Low,Column is sparse but may apply only to specific claim types.,08 | 02 | 03
+beneficiary_2023,DUAL_STUS_CD_07,other,73.9,9,REVIEW_SPARSE,Low,Column is sparse but may apply only to specific claim types.,08 | 02 | 03
+beneficiary_2023,DUAL_STUS_CD_08,other,74.2,9,REVIEW_SPARSE,Low,Column is sparse but may apply only to specific claim types.,08 | 02 | 03
+beneficiary_2023,DUAL_STUS_CD_09,other,74.46,9,REVIEW_SPARSE,Low,Column is sparse but may apply only to specific claim types.,08 | 02 | 03
+beneficiary_2023,DUAL_STUS_CD_10,other,74.84,9,REVIEW_SPARSE,Low,Column is sparse but may apply only to specific claim types.,08 | 02 | 03
+beneficiary_2023,DUAL_STUS_CD_11,other,75.18,9,REVIEW_SPARSE,Low,Column is sparse but may apply only to specific claim types.,08 | 02 | 03
+beneficiary_2023,DUAL_STUS_CD_12,other,75.42,8,REVIEW_SPARSE,Low,Column is sparse but may apply only to specific claim types.,08 | 02 | 03
+beneficiary_2023,CST_SHR_GRP_CD_01,other,0.0,5,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,02 | 01 | 00
+beneficiary_2023,CST_SHR_GRP_CD_02,other,0.0,5,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,02 | 01 | 00
+beneficiary_2023,CST_SHR_GRP_CD_03,other,0.0,5,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,02 | 01 | 00
+beneficiary_2023,CST_SHR_GRP_CD_04,other,0.0,5,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,02 | 01 | 00
+beneficiary_2023,CST_SHR_GRP_CD_05,other,0.0,5,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,02 | 01 | 00
+beneficiary_2023,CST_SHR_GRP_CD_06,other,0.0,5,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,02 | 01 | 00
+beneficiary_2023,CST_SHR_GRP_CD_07,other,0.0,5,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,02 | 01 | 00
+beneficiary_2023,CST_SHR_GRP_CD_08,other,0.0,5,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,02 | 01 | 00
+beneficiary_2023,CST_SHR_GRP_CD_09,other,0.0,5,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,02 | 01 | 00
+beneficiary_2023,CST_SHR_GRP_CD_10,other,0.0,5,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,02 | 01 | 00
+beneficiary_2023,CST_SHR_GRP_CD_11,other,0.0,5,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,02 | 01 | 00
+beneficiary_2023,CST_SHR_GRP_CD_12,other,0.0,5,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,02 | 01 | 00
+carrier,BENE_ID,identifier,0.0,38,KEEP_CRITICAL,High,"Required for relationships, claim grain or core KPI calculations.",-10000010254618 | -10000010254647 | -10000010254653
+carrier,CLM_ID,identifier,0.0,400,KEEP_CRITICAL,High,"Required for relationships, claim grain or core KPI calculations.",-10000930037915 | -10000930037916 | -10000930037917
+carrier,NCH_NEAR_LINE_REC_IDENT_CD,other,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,O
+carrier,NCH_CLM_TYPE_CD,other,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,71
+carrier,CLM_FROM_DT,date,0.0,383,KEEP_CRITICAL,High,"Required for relationships, claim grain or core KPI calculations.",28-Sep-2015 | 03-Oct-2016 | 09-Oct-2017
+carrier,CLM_THRU_DT,date,0.0,389,KEEP_CRITICAL,High,"Required for relationships, claim grain or core KPI calculations.",28-Sep-2015 | 03-Oct-2016 | 09-Oct-2017
+carrier,NCH_WKLY_PROC_DT,date,0.0,259,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,02-Oct-2015 | 07-Oct-2016 | 13-Oct-2017
+carrier,CARR_CLM_ENTRY_CD,other,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,1
+carrier,CLM_DISP_CD,other,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,1
+carrier,CARR_NUM,other,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,00510
+carrier,CARR_CLM_PMT_DNL_CD,financial,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,1
+carrier,CLM_PMT_AMT,financial,0.0,266,KEEP_CRITICAL,High,"Required for relationships, claim grain or core KPI calculations.",932.69 | 745.12 | 1040.54
+carrier,CARR_CLM_PRMRY_PYR_PD_AMT,financial,0.0,44,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,0 | 0.00 | 922.88
+carrier,RFR_PHYSN_UPIN,provider,93.1,5,REVIEW_SPARSE,Low,Column is sparse but may apply only to specific claim types.,C73634 | 013962 | C19628
+carrier,RFR_PHYSN_NPI,provider,0.0,47,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,9999971093 | 9999973990 | 9999958090
+carrier,CARR_CLM_PRVDR_ASGNMT_IND_SW,provider,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,A
+carrier,NCH_CLM_PRVDR_PMT_AMT,financial,0.0,266,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,932.69 | 745.12 | 1040.54
+carrier,NCH_CLM_BENE_PMT_AMT,financial,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,0
+carrier,NCH_CARR_CLM_SBMTD_CHRG_AMT,financial,0.0,230,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,1165.87 | 931.41 | 1300.68
+carrier,NCH_CARR_CLM_ALOWD_AMT,financial,0.0,266,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,932.69 | 745.12 | 1040.54
+carrier,CARR_CLM_CASH_DDCTBL_APLD_AMT,financial,0.0,43,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,0.00 | 233.00 | 224.91
+carrier,CARR_CLM_HCPCS_YR_CD,procedure,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,1
+carrier,CARR_CLM_RFRNG_PIN_NUM,other,94.96,4,REVIEW_SPARSE,Low,Column is sparse but may apply only to specific claim types.,J232 | 5101080357 | C909
+carrier,PRNCPAL_DGNS_CD,diagnosis,0.0,19,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,R4689 | Z608 | T7432X
+carrier,PRNCPAL_DGNS_VRSN_CD,diagnosis,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,0
+carrier,ICD_DGNS_CD1,diagnosis,0.0,52,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,R4689 | Z591 | T7432X
+carrier,ICD_DGNS_VRSN_CD1,diagnosis,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,0
+carrier,ICD_DGNS_CD2,diagnosis,0.9,68,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,E781 | T7432X | M7918
+carrier,ICD_DGNS_VRSN_CD2,diagnosis,0.9,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,0
+carrier,ICD_DGNS_CD3,diagnosis,1.58,69,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,J329 | M7918 | E781
+carrier,ICD_DGNS_VRSN_CD3,diagnosis,1.58,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,0
+carrier,ICD_DGNS_CD4,diagnosis,4.16,68,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,E119 | E781 | J329
+carrier,ICD_DGNS_VRSN_CD4,diagnosis,4.16,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,0
+carrier,ICD_DGNS_CD5,diagnosis,6.32,72,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,D649 | J329 | E119
+carrier,ICD_DGNS_VRSN_CD5,diagnosis,6.32,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,0
+carrier,ICD_DGNS_CD6,diagnosis,7.96,69,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,E089 | E119 | D649
+carrier,ICD_DGNS_VRSN_CD6,diagnosis,7.96,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,0
+carrier,ICD_DGNS_CD7,diagnosis,9.72,61,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,B965 | D649 | E089
+carrier,ICD_DGNS_VRSN_CD7,diagnosis,9.72,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,0
+carrier,ICD_DGNS_CD8,diagnosis,13.1,60,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,E848 | N469 | E849
+carrier,ICD_DGNS_VRSN_CD8,diagnosis,13.1,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,0
+carrier,ICD_DGNS_CD9,diagnosis,14.8,56,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,E849 | B965 | E848
+carrier,ICD_DGNS_VRSN_CD9,diagnosis,14.8,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,0
+carrier,ICD_DGNS_CD10,diagnosis,16.16,54,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,E848 | E849 | D649
+carrier,ICD_DGNS_VRSN_CD10,diagnosis,16.16,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,0
+carrier,ICD_DGNS_CD11,diagnosis,20.1,49,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,E849 | B965 | E089
+carrier,ICD_DGNS_VRSN_CD11,diagnosis,20.1,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,0
+carrier,ICD_DGNS_CD12,diagnosis,22.7,49,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,B965 | E848 | Z558
+carrier,ICD_DGNS_VRSN_CD12,diagnosis,22.7,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,0
+carrier,CLM_CLNCL_TRIL_NUM,other,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+carrier,CARR_CLM_BLG_NPI_NUM,provider,0.0,47,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,1063654341 | 1407891336 | 1306240502
+carrier,LINE_NUM,identifier,0.0,24,KEEP_CRITICAL,High,"Required for relationships, claim grain or core KPI calculations.",1 | 2 | 3
+carrier,CARR_PRFRNG_PIN_NUM,other,94.96,4,REVIEW_SPARSE,Low,Column is sparse but may apply only to specific claim types.,J232 | 5101080357 | C909
+carrier,PRF_PHYSN_UPIN,provider,93.1,5,REVIEW_SPARSE,Low,Column is sparse but may apply only to specific claim types.,C73634 | 013962 | C19628
+carrier,PRF_PHYSN_NPI,provider,0.0,47,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,9999971093 | 9999973990 | 9999958090
+carrier,ORG_NPI_NUM,provider,0.0,47,KEEP_CRITICAL,High,"Required for relationships, claim grain or core KPI calculations.",1063654341 | 1407891336 | 1306240502
+carrier,CARR_LINE_PRVDR_TYPE_CD,provider,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,0
+carrier,TAX_NUM,other,0.0,47,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,999349929 | 999582886 | 999311711
+carrier,PRVDR_STATE_CD,provider,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,AL
+carrier,PRVDR_ZIP,provider,0.0,43,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,361162501 | 358162537 | 368048515
+carrier,PRVDR_SPCLTY,provider,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,01
+carrier,PRTCPTNG_IND_CD,indicator,0.0,7,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,1 | 2 | 3
+carrier,CARR_LINE_RDCD_PMT_PHYS_ASTN_C,financial,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,0
+carrier,LINE_SRVC_CNT,other,0.0,24,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,10 | 12 | 13
+carrier,LINE_CMS_TYPE_SRVC_CD,other,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,1
+carrier,LINE_PLACE_OF_SRVC_CD,other,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,11
+carrier,CARR_LINE_PRCNG_LCLTY_CD,other,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,1
+carrier,LINE_1ST_EXPNS_DT,date,0.0,383,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,28-Sep-2015 | 03-Oct-2016 | 09-Oct-2017
+carrier,LINE_LAST_EXPNS_DT,date,0.0,389,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,28-Sep-2015 | 03-Oct-2016 | 09-Oct-2017
+carrier,HCPCS_CD,procedure,62.5,12,KEEP_CRITICAL,High,"Required for relationships, claim grain or core KPI calculations.",96127 | G0444 | G9573
+carrier,HCPCS_1ST_MDFR_CD,procedure,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+carrier,HCPCS_2ND_MDFR_CD,procedure,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+carrier,BETOS_CD,other,83.3,3,REVIEW_SPARSE,Low,Column is sparse but may apply only to specific claim types.,Y1 | Z2 | M5B
+carrier,LINE_NCH_PMT_AMT,financial,0.0,226,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,91.04 | 108.80 | 85.59
+carrier,LINE_BENE_PMT_AMT,financial,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,0
+carrier,LINE_PRVDR_PMT_AMT,financial,0.0,226,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,91.04 | 108.80 | 85.59
+carrier,LINE_BENE_PTB_DDCTBL_AMT,financial,0.0,50,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,0.00 | 113.80 | 119.20
+carrier,LINE_BENE_PRMRY_PYR_CD,other,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample., 
+carrier,LINE_BENE_PRMRY_PYR_PD_AMT,financial,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,0
+carrier,LINE_COINSRNC_AMT,financial,0.0,190,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,91.04 | 108.80 | 85.59
+carrier,LINE_SBMTD_CHRG_AMT,financial,0.0,186,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,113.80 | 136.00 | 106.99
+carrier,LINE_ALOWD_CHRG_AMT,financial,0.0,186,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,113.80 | 136.00 | 106.99
+carrier,LINE_PRCSG_IND_CD,indicator,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,A
+carrier,LINE_PMT_80_100_CD,financial,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+carrier,LINE_SERVICE_DEDUCTIBLE,other,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+carrier,CARR_LINE_MTUS_CNT,other,0.0,36,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,29 | 16 | 56
+carrier,CARR_LINE_MTUS_CD,other,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+carrier,LINE_ICD_DGNS_CD,diagnosis,52.94,84,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,R4689 | D649 | Z591
+carrier,LINE_ICD_DGNS_VRSN_CD,diagnosis,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,0
+carrier,HPSA_SCRCTY_IND_CD,indicator,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample., 
+carrier,CARR_LINE_RX_NUM,other,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+carrier,LINE_HCT_HGB_RSLT_NUM,other,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,0.0
+carrier,LINE_HCT_HGB_TYPE_CD,other,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,R1
+carrier,LINE_NDC_CD,other,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+carrier,CARR_LINE_CLIA_LAB_NUM,other,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+carrier,CARR_LINE_ANSTHSA_UNIT_CNT,other,0.0,2,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,0 | 1
+inpatient,BENE_ID,identifier,0.0,430,KEEP_CRITICAL,High,"Required for relationships, claim grain or core KPI calculations.",-10000010254618 | -10000010254653 | -10000010254656
+inpatient,CLM_ID,identifier,0.0,1811,KEEP_CRITICAL,High,"Required for relationships, claim grain or core KPI calculations.",-10000930037831 | -10000930038030 | -10000930038031
+inpatient,NCH_NEAR_LINE_REC_IDENT_CD,other,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,V
+inpatient,NCH_CLM_TYPE_CD,other,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,60
+inpatient,CLM_FROM_DT,date,0.0,1372,KEEP_CRITICAL,High,"Required for relationships, claim grain or core KPI calculations.",25-Mar-2015 | 24-Sep-2015 | 09-May-2017
+inpatient,CLM_THRU_DT,date,0.0,1378,KEEP_CRITICAL,High,"Required for relationships, claim grain or core KPI calculations.",25-Mar-2015 | 24-Sep-2015 | 10-May-2017
+inpatient,NCH_WKLY_PROC_DT,date,0.0,415,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,27-Mar-2015 | 25-Sep-2015 | 12-May-2017
+inpatient,FI_CLM_PROC_DT,date,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+inpatient,CLAIM_QUERY_CODE,other,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,3
+inpatient,PRVDR_NUM,provider,1.96,387,KEEP_CRITICAL,High,"Required for relationships, claim grain or core KPI calculations.",011500 | 017129 | 010052
+inpatient,CLM_FAC_TYPE_CD,other,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,1
+inpatient,CLM_SRVC_CLSFCTN_TYPE_CD,other,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,1
+inpatient,CLM_FREQ_CD,other,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,1
+inpatient,FI_NUM,other,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+inpatient,CLM_MDCR_NON_PMT_RSN_CD,financial,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample., 
+inpatient,CLM_PMT_AMT,financial,0.0,911,KEEP_CRITICAL,High,"Required for relationships, claim grain or core KPI calculations.",96.65 | 6311.88 | 8545.72
+inpatient,NCH_PRMRY_PYR_CLM_PD_AMT,financial,0.0,161,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,0 | 6276.88 | 979.85
+inpatient,NCH_PRMRY_PYR_CD,other,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample., 
+inpatient,FI_CLM_ACTN_CD,other,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+inpatient,PRVDR_STATE_CD,provider,0.0,6,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,01 | 02 | 03
+inpatient,ORG_NPI_NUM,provider,0.0,389,KEEP_CRITICAL,High,"Required for relationships, claim grain or core KPI calculations.",1578657367 | 1770717738 | 1598783904
+inpatient,AT_PHYSN_UPIN,provider,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample., 
+inpatient,AT_PHYSN_NPI,provider,0.0,320,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,9999870899 | 9999877191 | 9999995399
+inpatient,OP_PHYSN_UPIN,provider,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample., 
+inpatient,OP_PHYSN_NPI,provider,0.0,320,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,9999870899 | 9999877191 | 9999995399
+inpatient,OT_PHYSN_UPIN,provider,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+inpatient,OT_PHYSN_NPI,provider,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+inpatient,CLM_MCO_PD_SW,indicator,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,0
+inpatient,PTNT_DSCHRG_STUS_CD,financial,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,1
+inpatient,CLM_PPS_IND_CD,indicator,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample., 
+inpatient,CLM_TOT_CHRG_AMT,financial,0.0,911,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,96.65 | 6311.88 | 8545.72
+inpatient,CLM_ADMSN_DT,date,0.0,1372,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,25-Mar-2015 | 24-Sep-2015 | 09-May-2017
+inpatient,CLM_IP_ADMSN_TYPE_CD,other,0.0,3,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,1 | 3 | 2
+inpatient,CLM_SRC_IP_ADMSN_CD,other,0.0,4,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,4 | 2 | 1
+inpatient,NCH_PTNT_STATUS_IND_CD,indicator,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,A
+inpatient,CLM_PASS_THRU_PER_DIEM_AMT,financial,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,10
+inpatient,NCH_BENE_IP_DDCTBL_AMT,financial,0.0,47,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,0.00 | 72.04 | 96.65
+inpatient,NCH_BENE_PTA_COINSRNC_LBLTY_AM,other,0.0,693,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,19.33 | 0.00 | 1709.14
+inpatient,NCH_BENE_BLOOD_DDCTBL_LBLTY_AM,other,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,0
+inpatient,NCH_PROFNL_CMPNT_CHRG_AMT,financial,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,4
+inpatient,NCH_IP_NCVRD_CHRG_AMT,financial,0.0,266,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,0.00 | 35.00 | 30.00
+inpatient,NCH_IP_TOT_DDCTN_AMT,financial,0.0,266,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,0.00 | 35.00 | 30.00
+inpatient,CLM_TOT_PPS_CPTL_AMT,financial,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,0
+inpatient,CLM_PPS_CPTL_FSP_AMT,financial,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,0
+inpatient,CLM_PPS_CPTL_OUTLIER_AMT,financial,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,0
+inpatient,CLM_PPS_CPTL_DSPRPRTNT_SHR_AMT,financial,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,0
+inpatient,CLM_PPS_CPTL_IME_AMT,financial,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,0
+inpatient,CLM_PPS_CPTL_EXCPTN_AMT,financial,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,0
+inpatient,CLM_PPS_OLD_CPTL_HLD_HRMLS_AMT,financial,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,0
+inpatient,CLM_PPS_CPTL_DRG_WT_NUM,other,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,0
+inpatient,CLM_UTLZTN_DAY_CNT,other,0.0,26,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,0 | 1 | 10
+inpatient,BENE_TOT_COINSRNC_DAYS_CNT,other,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,0
+inpatient,BENE_LRD_USED_CNT,other,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,0
+inpatient,CLM_NON_UTLZTN_DAYS_CNT,other,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,0
+inpatient,NCH_BLOOD_PNTS_FRNSHD_QTY,other,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,0
+inpatient,NCH_VRFD_NCVRD_STAY_FROM_DT,date,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+inpatient,NCH_VRFD_NCVRD_STAY_THRU_DT,date,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+inpatient,NCH_ACTV_OR_CVRD_LVL_CARE_THRU,other,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+inpatient,NCH_BENE_MDCR_BNFTS_EXHTD_DT_I,date,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+inpatient,NCH_BENE_DSCHRG_DT,financial,0.0,1378,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,25-Mar-2015 | 24-Sep-2015 | 10-May-2017
+inpatient,CLM_DRG_CD,other,5.2,110,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,551 | 951 | 923
+inpatient,CLM_DRG_OUTLIER_STAY_CD,other,0.0,2,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,0 | 2
+inpatient,NCH_DRG_OUTLIER_APRVD_PMT_AMT,financial,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,0
+inpatient,ADMTG_DGNS_CD,diagnosis,77.74,49,REVIEW_SPARSE,Low,Column is sparse but may apply only to specific claim types.,Z3480 | Z3400 | R569
+inpatient,PRNCPAL_DGNS_CD,diagnosis,0.0,121,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,S134XX | Z3480 | T7432X
+inpatient,ICD_DGNS_CD1,diagnosis,0.0,135,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,S134XX | T7432X | S8290X
+inpatient,CLM_POA_IND_SW1,indicator,0.0,2,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,Y | N
+inpatient,ICD_DGNS_CD2,diagnosis,0.08,126,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,R4689 | E669 | G40909
+inpatient,CLM_POA_IND_SW2,indicator,0.08,2,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,Y | N
+inpatient,ICD_DGNS_CD3,diagnosis,0.3,121,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,E781 | C50919 | C50929
+inpatient,CLM_POA_IND_SW3,indicator,0.3,2,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,Y | N
+inpatient,ICD_DGNS_CD4,diagnosis,0.88,119,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,J329 | Z8669 | R569
+inpatient,CLM_POA_IND_SW4,indicator,0.88,2,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,Y | N
+inpatient,ICD_DGNS_CD5,diagnosis,1.64,122,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,E119 | Z8669 | G40909
+inpatient,CLM_POA_IND_SW5,indicator,1.64,2,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,Y | N
+inpatient,ICD_DGNS_CD6,diagnosis,2.42,123,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,D649 | P90 | K37
+inpatient,CLM_POA_IND_SW6,indicator,2.42,2,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,Y | N
+inpatient,ICD_DGNS_CD7,diagnosis,3.54,127,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,E849 | Z8669 | Z9049
+inpatient,CLM_POA_IND_SW7,indicator,3.54,2,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,Y | N
+inpatient,ICD_DGNS_CD8,diagnosis,5.02,118,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,B965 | R931 | I129
+inpatient,CLM_POA_IND_SW8,indicator,5.02,2,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,Y | N
+inpatient,ICD_DGNS_CD9,diagnosis,6.38,119,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,N469 | I259 | E1121
+inpatient,CLM_POA_IND_SW9,indicator,6.38,2,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,Y | N
+inpatient,ICD_DGNS_CD10,diagnosis,9.22,115,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,E849 | Z608 | I10
+inpatient,CLM_POA_IND_SW10,indicator,9.22,2,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,Y | N
+inpatient,ICD_DGNS_CD11,diagnosis,11.14,106,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,M169 | E669 | K37
+inpatient,CLM_POA_IND_SW11,indicator,11.14,2,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,Y | N
+inpatient,ICD_DGNS_CD12,diagnosis,14.2,102,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,D649 | K37 | Z9049
+inpatient,CLM_POA_IND_SW12,indicator,14.2,2,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,Y | N
+inpatient,ICD_DGNS_CD13,diagnosis,18.08,97,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,R7303 | Z9049 | K37
+inpatient,CLM_POA_IND_SW13,indicator,18.08,2,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,Y | N
+inpatient,ICD_DGNS_CD14,diagnosis,20.86,92,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,J329 | Z9049 | G479
+inpatient,CLM_POA_IND_SW14,indicator,20.86,2,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,Y | N
+inpatient,ICD_DGNS_CD15,diagnosis,23.84,83,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,E669 | O039 | E781
+inpatient,CLM_POA_IND_SW15,indicator,23.84,2,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,Y | N
+inpatient,ICD_DGNS_CD16,diagnosis,27.06,77,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,Y0704 | Z560 | E119
+inpatient,CLM_POA_IND_SW16,indicator,27.06,2,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,N | Y
+inpatient,ICD_DGNS_CD17,diagnosis,31.78,81,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,R931 | I259 | E781
+inpatient,CLM_POA_IND_SW17,indicator,31.78,2,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,Y | N
+inpatient,ICD_DGNS_CD18,diagnosis,35.8,73,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,I259 | D649 | E119
+inpatient,CLM_POA_IND_SW18,indicator,35.8,2,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,Y | N
+inpatient,ICD_DGNS_CD19,diagnosis,41.72,58,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,D649 | E8881 | R931
+inpatient,CLM_POA_IND_SW19,indicator,41.72,2,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,Y | N
+inpatient,ICD_DGNS_CD20,diagnosis,45.8,56,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,E8881 | R7303 | I259
+inpatient,CLM_POA_IND_SW20,indicator,45.8,2,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,Y | N
+inpatient,ICD_DGNS_CD21,diagnosis,49.78,52,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,R7303 | Z653 | D649
+inpatient,CLM_POA_IND_SW21,indicator,49.78,2,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,Y | N
+inpatient,ICD_DGNS_CD22,diagnosis,54.8,45,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,Z653 | E669 | E8881
+inpatient,CLM_POA_IND_SW22,indicator,54.8,2,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,Y | N
+inpatient,ICD_DGNS_CD23,diagnosis,58.62,46,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,E669 | I10 | P292
+inpatient,CLM_POA_IND_SW23,indicator,58.62,2,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,Y | N
+inpatient,ICD_DGNS_CD24,diagnosis,61.68,36,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,P292 | O039 | Z653
+inpatient,CLM_POA_IND_SW24,indicator,61.68,2,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,Y | N
+inpatient,ICD_DGNS_CD25,diagnosis,64.12,28,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,O039 | Z9189 | R4689
+inpatient,CLM_POA_IND_SW25,indicator,64.12,2,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,Y | N
+inpatient,FST_DGNS_E_CD,diagnosis,24.7,70,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,V89 | X58 | Y07
+inpatient,ICD_DGNS_E_CD1,diagnosis,24.7,59,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,Y93 | W19 | Y04
+inpatient,CLM_E_POA_IND_SW1,indicator,24.7,2,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,Y | U
+inpatient,ICD_DGNS_E_CD2,diagnosis,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample., 
+inpatient,CLM_E_POA_IND_SW2,indicator,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample., 
+inpatient,ICD_DGNS_E_CD3,diagnosis,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample., 
+inpatient,CLM_E_POA_IND_SW3,indicator,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample., 
+inpatient,ICD_DGNS_E_CD4,diagnosis,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample., 
+inpatient,CLM_E_POA_IND_SW4,indicator,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample., 
+inpatient,ICD_DGNS_E_CD5,diagnosis,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample., 
+inpatient,CLM_E_POA_IND_SW5,indicator,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample., 
+inpatient,ICD_DGNS_E_CD6,diagnosis,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample., 
+inpatient,CLM_E_POA_IND_SW6,indicator,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample., 
+inpatient,ICD_DGNS_E_CD7,diagnosis,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample., 
+inpatient,CLM_E_POA_IND_SW7,indicator,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample., 
+inpatient,ICD_DGNS_E_CD8,diagnosis,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample., 
+inpatient,CLM_E_POA_IND_SW8,indicator,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample., 
+inpatient,ICD_DGNS_E_CD9,diagnosis,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample., 
+inpatient,CLM_E_POA_IND_SW9,indicator,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample., 
+inpatient,ICD_DGNS_E_CD10,diagnosis,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample., 
+inpatient,CLM_E_POA_IND_SW10,indicator,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample., 
+inpatient,ICD_DGNS_E_CD11,diagnosis,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample., 
+inpatient,CLM_E_POA_IND_SW11,indicator,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample., 
+inpatient,ICD_DGNS_E_CD12,diagnosis,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample., 
+inpatient,CLM_E_POA_IND_SW12,indicator,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample., 
+inpatient,ICD_PRCDR_CD1,diagnosis,14.98,52,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,Z5189 | S9091 | G40
+inpatient,PRCDR_DT1,date,14.98,909,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,09-May-2017 | 14-Jan-2017 | 21-Mar-2015
+inpatient,ICD_PRCDR_CD2,diagnosis,20.66,34,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,T1490 | Z139 | F419
+inpatient,PRCDR_DT2,date,20.66,714,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,14-Jan-2017 | 30-Apr-2021 | 12-Mar-2020
+inpatient,ICD_PRCDR_CD3,diagnosis,28.96,18,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,M859 | Z1331 | Z9981
+inpatient,PRCDR_DT3,date,28.96,581,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,30-Apr-2021 | 12-Mar-2020 | 21-May-2020
+inpatient,ICD_PRCDR_CD4,diagnosis,35.88,13,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,Z1331 | Z9981 | Z9181
+inpatient,PRCDR_DT4,date,35.88,484,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,12-Mar-2020 | 21-May-2020 | 13-Oct-2020
+inpatient,ICD_PRCDR_CD5,diagnosis,44.48,11,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,F1990 | Z9981 | Z1331
+inpatient,PRCDR_DT5,date,44.48,396,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,13-Mar-2020 | 21-May-2020 | 14-Oct-2020
+inpatient,ICD_PRCDR_CD6,diagnosis,59.38,8,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,F109 | Z9981 | F1990
+inpatient,PRCDR_DT6,date,59.38,263,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,13-Mar-2020 | 21-May-2020 | 15-Oct-2020
+inpatient,ICD_PRCDR_CD7,diagnosis,73.68,8,REVIEW_SPARSE,Low,Column is sparse but may apply only to specific claim types.,Z9981 | F109 | Z1331
+inpatient,PRCDR_DT7,date,73.68,152,REVIEW_SPARSE,Low,Column is sparse but may apply only to specific claim types.,16-Oct-2020 | 06-May-2021 | 04-Feb-2021
+inpatient,ICD_PRCDR_CD8,diagnosis,85.32,7,REVIEW_SPARSE,Low,Column is sparse but may apply only to specific claim types.,Z9981 | F1990 | F109
+inpatient,PRCDR_DT8,date,85.32,74,REVIEW_SPARSE,Low,Column is sparse but may apply only to specific claim types.,17-Oct-2020 | 05-Feb-2021 | 25-Aug-2021
+inpatient,ICD_PRCDR_CD9,diagnosis,91.58,6,REVIEW_SPARSE,Low,Column is sparse but may apply only to specific claim types.,Z9981 | F109 | BW03ZZZ
+inpatient,PRCDR_DT9,date,91.58,35,REVIEW_SPARSE,Low,Column is sparse but may apply only to specific claim types.,18-Oct-2020 | 06-Feb-2021 | 25-Aug-2021
+inpatient,ICD_PRCDR_CD10,diagnosis,95.36,3,REVIEW_HIGH_MISSING,Medium,At least 95% of sample values are missing.,Z9981 | BW03ZZZ | F08H5ZZ
+inpatient,PRCDR_DT10,date,95.36,16,REVIEW_HIGH_MISSING,Medium,At least 95% of sample values are missing.,19-Oct-2020 | 07-Feb-2021 | 19-Nov-2020
+inpatient,ICD_PRCDR_CD11,diagnosis,95.36,3,REVIEW_HIGH_MISSING,Medium,At least 95% of sample values are missing.,Z9981 | BW03ZZZ | F08H5ZZ
+inpatient,PRCDR_DT11,date,95.36,16,REVIEW_HIGH_MISSING,Medium,At least 95% of sample values are missing.,20-Oct-2020 | 08-Feb-2021 | 20-Nov-2020
+inpatient,ICD_PRCDR_CD12,diagnosis,96.38,2,REVIEW_HIGH_MISSING,Medium,At least 95% of sample values are missing.,Z9981 | F08H5ZZ
+inpatient,PRCDR_DT12,date,96.38,13,REVIEW_HIGH_MISSING,Medium,At least 95% of sample values are missing.,21-Oct-2020 | 09-Feb-2021 | 21-Nov-2020
+inpatient,ICD_PRCDR_CD13,diagnosis,97.1,2,REVIEW_HIGH_MISSING,Medium,At least 95% of sample values are missing.,Z9981 | F08H5ZZ
+inpatient,PRCDR_DT13,date,97.1,10,REVIEW_HIGH_MISSING,Medium,At least 95% of sample values are missing.,10-Feb-2021 | 22-Nov-2020 | 29-Nov-2020
+inpatient,ICD_PRCDR_CD14,diagnosis,97.88,2,REVIEW_HIGH_MISSING,Medium,At least 95% of sample values are missing.,Z9981 | F08H5ZZ
+inpatient,PRCDR_DT14,date,97.88,7,REVIEW_HIGH_MISSING,Medium,At least 95% of sample values are missing.,23-Nov-2020 | 30-Nov-2020 | 02-Jul-2020
+inpatient,ICD_PRCDR_CD15,diagnosis,98.16,2,REVIEW_HIGH_MISSING,Medium,At least 95% of sample values are missing.,Z9981 | F08H5ZZ
+inpatient,PRCDR_DT15,date,98.16,6,REVIEW_HIGH_MISSING,Medium,At least 95% of sample values are missing.,24-Nov-2020 | 01-Dec-2020 | 03-Jul-2020
+inpatient,ICD_PRCDR_CD16,diagnosis,99.68,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,Z9981
+inpatient,PRCDR_DT16,date,99.68,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,02-Dec-2020
+inpatient,ICD_PRCDR_CD17,diagnosis,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+inpatient,PRCDR_DT17,date,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+inpatient,ICD_PRCDR_CD18,diagnosis,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+inpatient,PRCDR_DT18,date,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+inpatient,ICD_PRCDR_CD19,diagnosis,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+inpatient,PRCDR_DT19,date,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+inpatient,ICD_PRCDR_CD20,diagnosis,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+inpatient,PRCDR_DT20,date,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+inpatient,ICD_PRCDR_CD21,diagnosis,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+inpatient,PRCDR_DT21,date,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+inpatient,ICD_PRCDR_CD22,diagnosis,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+inpatient,PRCDR_DT22,date,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+inpatient,ICD_PRCDR_CD23,diagnosis,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+inpatient,PRCDR_DT23,date,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+inpatient,ICD_PRCDR_CD24,diagnosis,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+inpatient,PRCDR_DT24,date,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+inpatient,ICD_PRCDR_CD25,diagnosis,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+inpatient,PRCDR_DT25,date,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+inpatient,IME_OP_CLM_VAL_AMT,financial,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,0
+inpatient,DSH_OP_CLM_VAL_AMT,financial,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,0
+inpatient,CLM_UNCOMPD_CARE_PMT_AMT,financial,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+inpatient,CLM_LINE_NUM,other,0.0,20,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,1 | 2 | 3
+inpatient,REV_CNTR,other,0.0,2,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,0450 | 0001
+inpatient,HCPCS_CD,procedure,0.0,72,KEEP_CRITICAL,High,"Required for relationships, claim grain or core KPI calculations.",99221 | 99024 | 73610
+inpatient,REV_CNTR_DDCTBL_COINSRNC_CD,other,13.9,4,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,3 | 2 | 1
+outpatient,BENE_ID,identifier,0.0,77,KEEP_CRITICAL,High,"Required for relationships, claim grain or core KPI calculations.",-10000010254618 | -10000010254647 | -10000010254653
+outpatient,CLM_ID,identifier,0.0,3739,KEEP_CRITICAL,High,"Required for relationships, claim grain or core KPI calculations.",-10000930037832 | -10000930037833 | -10000930037834
+outpatient,NCH_NEAR_LINE_REC_IDENT_CD,other,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,W
+outpatient,NCH_CLM_TYPE_CD,other,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,40
+outpatient,CLM_FROM_DT,date,0.0,2027,KEEP_CRITICAL,High,"Required for relationships, claim grain or core KPI calculations.",16-Mar-2015 | 27-Apr-2015 | 23-May-2015
+outpatient,CLM_THRU_DT,date,0.0,2011,KEEP_CRITICAL,High,"Required for relationships, claim grain or core KPI calculations.",16-Mar-2015 | 27-Apr-2015 | 23-May-2015
+outpatient,NCH_WKLY_PROC_DT,date,0.0,416,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,20-Mar-2015 | 01-May-2015 | 29-May-2015
+outpatient,FI_CLM_PROC_DT,date,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+outpatient,CLAIM_QUERY_CODE,other,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,3
+outpatient,PRVDR_NUM,provider,0.0,63,KEEP_CRITICAL,High,"Required for relationships, claim grain or core KPI calculations.",01S023 | 014018 | 010052
+outpatient,CLM_FAC_TYPE_CD,other,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,1
+outpatient,CLM_SRVC_CLSFCTN_TYPE_CD,other,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,3
+outpatient,CLM_FREQ_CD,other,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,1
+outpatient,FI_NUM,other,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+outpatient,CLM_MDCR_NON_PMT_RSN_CD,financial,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample., 
+outpatient,CLM_PMT_AMT,financial,0.0,2689,KEEP_CRITICAL,High,"Required for relationships, claim grain or core KPI calculations.",10224.89 | 11936.39 | 8674.15
+outpatient,NCH_PRMRY_PYR_CLM_PD_AMT,financial,0.0,1640,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,0 | 0.00 | 984.37
+outpatient,NCH_PRMRY_PYR_CD,other,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample., 
+outpatient,PRVDR_STATE_CD,provider,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,01
+outpatient,ORG_NPI_NUM,provider,0.0,63,KEEP_CRITICAL,High,"Required for relationships, claim grain or core KPI calculations.",1942394739 | 1225301823 | 1598783904
+outpatient,AT_PHYSN_UPIN,provider,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample., 
+outpatient,AT_PHYSN_NPI,provider,0.0,63,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,9999995696 | 9999987891 | 9999995399
+outpatient,OP_PHYSN_UPIN,provider,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample., 
+outpatient,OP_PHYSN_NPI,provider,0.0,63,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,9999995696 | 9999987891 | 9999995399
+outpatient,OT_PHYSN_UPIN,provider,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+outpatient,OT_PHYSN_NPI,provider,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+outpatient,CLM_MCO_PD_SW,indicator,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,0
+outpatient,PTNT_DSCHRG_STUS_CD,financial,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,1
+outpatient,CLM_TOT_CHRG_AMT,financial,0.0,2689,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,10224.89 | 11936.39 | 8674.15
+outpatient,NCH_BENE_BLOOD_DDCTBL_LBLTY_AM,other,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,0
+outpatient,NCH_PROFNL_CMPNT_CHRG_AMT,financial,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,4
+outpatient,PRNCPAL_DGNS_CD,diagnosis,0.0,64,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,R4689 | B9789 | P292
+outpatient,ICD_DGNS_CD1,diagnosis,0.0,102,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,R4689 | S134XX | Z9189
+outpatient,ICD_DGNS_CD2,diagnosis,0.26,115,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,E781 | Z7289 | R4689
+outpatient,ICD_DGNS_CD3,diagnosis,0.54,105,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,J329 | E781 | E119
+outpatient,ICD_DGNS_CD4,diagnosis,1.0,102,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,E119 | J329 | D649
+outpatient,ICD_DGNS_CD5,diagnosis,2.78,103,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,D649 | E119 | E849
+outpatient,ICD_DGNS_CD6,diagnosis,3.58,104,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,E849 | D649 | E089
+outpatient,ICD_DGNS_CD7,diagnosis,4.36,97,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,B965 | E849 | E089
+outpatient,ICD_DGNS_CD8,diagnosis,5.1,93,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,E848 | B965 | N469
+outpatient,ICD_DGNS_CD9,diagnosis,5.46,83,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,E849 | E848 | N469
+outpatient,ICD_DGNS_CD10,diagnosis,7.04,83,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,E849 | E848 | N469
+outpatient,ICD_DGNS_CD11,diagnosis,8.76,77,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,E849 | E089 | B965
+outpatient,ICD_DGNS_CD12,diagnosis,9.94,65,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,B965 | E848 | N469
+outpatient,ICD_DGNS_CD13,diagnosis,13.74,55,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,E848 | N469 | E849
+outpatient,ICD_DGNS_CD14,diagnosis,19.32,56,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,E849 | E669 | J329
+outpatient,ICD_DGNS_CD15,diagnosis,26.06,54,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,T7412X | E669 | J329
+outpatient,ICD_DGNS_CD16,diagnosis,30.24,47,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,Y0704 | T7421X | E669
+outpatient,ICD_DGNS_CD17,diagnosis,33.64,49,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,T7432X | T7431X | E669
+outpatient,ICD_DGNS_CD18,diagnosis,38.42,40,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,K37 | E8881 | D649
+outpatient,ICD_DGNS_CD19,diagnosis,40.58,41,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,Z9049 | R7303 | E8881
+outpatient,ICD_DGNS_CD20,diagnosis,59.16,32,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,Z653 | R7303 | E669
+outpatient,ICD_DGNS_CD21,diagnosis,69.84,32,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,E669 | Z653 | P292
+outpatient,ICD_DGNS_CD22,diagnosis,71.16,19,REVIEW_SPARSE,Low,Column is sparse but may apply only to specific claim types.,P292 | E669 | I10
+outpatient,ICD_DGNS_CD23,diagnosis,71.78,17,REVIEW_SPARSE,Low,Column is sparse but may apply only to specific claim types.,O039 | I10 | P292
+outpatient,ICD_DGNS_CD24,diagnosis,74.24,13,REVIEW_SPARSE,Low,Column is sparse but may apply only to specific claim types.,R4689 | O039 | Z7289
+outpatient,ICD_DGNS_CD25,diagnosis,79.12,11,REVIEW_SPARSE,Low,Column is sparse but may apply only to specific claim types.,Z7289 | Z9189 | R4689
+outpatient,FST_DGNS_E_CD,diagnosis,10.32,64,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,W01 | W19 | Y04
+outpatient,ICD_DGNS_E_CD1,diagnosis,10.32,64,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,X58 | W19 | W22
+outpatient,ICD_DGNS_E_CD2,diagnosis,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample., 
+outpatient,ICD_DGNS_E_CD3,diagnosis,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample., 
+outpatient,ICD_DGNS_E_CD4,diagnosis,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample., 
+outpatient,ICD_DGNS_E_CD5,diagnosis,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample., 
+outpatient,ICD_DGNS_E_CD6,diagnosis,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample., 
+outpatient,ICD_DGNS_E_CD7,diagnosis,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample., 
+outpatient,ICD_DGNS_E_CD8,diagnosis,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample., 
+outpatient,ICD_DGNS_E_CD9,diagnosis,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample., 
+outpatient,ICD_DGNS_E_CD10,diagnosis,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample., 
+outpatient,ICD_DGNS_E_CD11,diagnosis,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample., 
+outpatient,ICD_DGNS_E_CD12,diagnosis,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample., 
+outpatient,ICD_PRCDR_CD1,diagnosis,3.32,88,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,BW03ZZZ | Z5189 | Z000
+outpatient,PRCDR_DT1,date,3.32,1862,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,27-May-2017 | 23-Sep-2017 | 26-Sep-2017
+outpatient,ICD_PRCDR_CD2,diagnosis,26.62,17,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,Z139 | 0JHM3HZ | F419
+outpatient,PRCDR_DT2,date,26.62,278,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,02-May-2019 | 07-May-2020 | 09-Dec-2017
+outpatient,ICD_PRCDR_CD3,diagnosis,27.2,10,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,Z139 | K635 | Z9181
+outpatient,PRCDR_DT3,date,27.2,234,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,09-Dec-2017 | 30-Dec-2022 | 02-May-2019
+outpatient,ICD_PRCDR_CD4,diagnosis,30.04,7,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,Z1331 | Z139 | F419
+outpatient,PRCDR_DT4,date,30.04,212,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,02-May-2019 | 23-Apr-2020 | 11-May-2015
+outpatient,ICD_PRCDR_CD5,diagnosis,30.2,6,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,Z1331 | Z9181 | F1990
+outpatient,PRCDR_DT5,date,30.2,182,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,02-May-2019 | 23-Apr-2020 | 11-May-2015
+outpatient,ICD_PRCDR_CD6,diagnosis,33.68,4,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,F1990 | Z1331 | F109
+outpatient,PRCDR_DT6,date,33.68,138,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,02-May-2019 | 23-Apr-2020 | 11-May-2015
+outpatient,ICD_PRCDR_CD7,diagnosis,45.7,4,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,F109 | Z715 | Z1331
+outpatient,PRCDR_DT7,date,45.7,81,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,02-May-2019 | 23-Apr-2020 | 11-May-2015
+outpatient,ICD_PRCDR_CD8,diagnosis,69.24,3,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,F1990 | Z715 | F109
+outpatient,PRCDR_DT8,date,69.24,34,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,11-May-2015 | 20-Jul-2015 | 27-Nov-2017
+outpatient,ICD_PRCDR_CD9,diagnosis,93.84,2,REVIEW_SPARSE,Low,Column is sparse but may apply only to specific claim types.,Z715 | F109
+outpatient,PRCDR_DT9,date,93.84,9,REVIEW_SPARSE,Low,Column is sparse but may apply only to specific claim types.,11-May-2015 | 20-Jul-2015 | 27-Nov-2017
+outpatient,ICD_PRCDR_CD10,diagnosis,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+outpatient,PRCDR_DT10,date,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+outpatient,ICD_PRCDR_CD11,diagnosis,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+outpatient,PRCDR_DT11,date,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+outpatient,ICD_PRCDR_CD12,diagnosis,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+outpatient,PRCDR_DT12,date,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+outpatient,ICD_PRCDR_CD13,diagnosis,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+outpatient,PRCDR_DT13,date,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+outpatient,ICD_PRCDR_CD14,diagnosis,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+outpatient,PRCDR_DT14,date,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+outpatient,ICD_PRCDR_CD15,diagnosis,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+outpatient,PRCDR_DT15,date,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+outpatient,ICD_PRCDR_CD16,diagnosis,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+outpatient,PRCDR_DT16,date,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+outpatient,ICD_PRCDR_CD17,diagnosis,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+outpatient,PRCDR_DT17,date,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+outpatient,ICD_PRCDR_CD18,diagnosis,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+outpatient,PRCDR_DT18,date,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+outpatient,ICD_PRCDR_CD19,diagnosis,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+outpatient,PRCDR_DT19,date,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+outpatient,ICD_PRCDR_CD20,diagnosis,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+outpatient,PRCDR_DT20,date,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+outpatient,ICD_PRCDR_CD21,diagnosis,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+outpatient,PRCDR_DT21,date,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+outpatient,ICD_PRCDR_CD22,diagnosis,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+outpatient,PRCDR_DT22,date,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+outpatient,ICD_PRCDR_CD23,diagnosis,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+outpatient,PRCDR_DT23,date,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+outpatient,ICD_PRCDR_CD24,diagnosis,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+outpatient,PRCDR_DT24,date,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+outpatient,ICD_PRCDR_CD25,diagnosis,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+outpatient,PRCDR_DT25,date,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+outpatient,RSN_VISIT_CD1,other,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+outpatient,RSN_VISIT_CD2,other,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+outpatient,RSN_VISIT_CD3,other,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+outpatient,NCH_BENE_PTB_DDCTBL_AMT,financial,0.0,66,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,0.00 | 233.00 | 232.99
+outpatient,NCH_BENE_PTB_COINSRNC_AMT,financial,0.0,3,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,20 | 0 | 10
+outpatient,CLM_OP_PRVDR_PMT_AMT,financial,0.0,2689,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,10224.89 | 11936.39 | 8674.15
+outpatient,CLM_OP_BENE_PMT_AMT,financial,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,0
+outpatient,CLM_LINE_NUM,other,0.0,9,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,1 | 2 | 3
+outpatient,REV_CNTR,other,0.0,2,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,0001 | 0780
+outpatient,REV_CNTR_DT,date,0.0,2031,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,16-Mar-2015 | 27-Apr-2015 | 23-May-2015
+outpatient,REV_CNTR_1ST_ANSI_CD,other,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+outpatient,REV_CNTR_2ND_ANSI_CD,other,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+outpatient,REV_CNTR_3RD_ANSI_CD,other,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+outpatient,REV_CNTR_4TH_ANSI_CD,other,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+outpatient,REV_CNTR_APC_HIPPS_CD,other,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+outpatient,HCPCS_CD,procedure,0.0,57,KEEP_CRITICAL,High,"Required for relationships, claim grain or core KPI calculations.",99241 | 94010 | 71046
+outpatient,HCPCS_1ST_MDFR_CD,procedure,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+outpatient,HCPCS_2ND_MDFR_CD,procedure,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+outpatient,REV_CNTR_PMT_MTHD_IND_CD,financial,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,4
+outpatient,REV_CNTR_DSCNT_IND_CD,indicator,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+outpatient,REV_CNTR_PACKG_IND_CD,indicator,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+outpatient,REV_CNTR_OTAF_PMT_CD,financial,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+outpatient,REV_CNTR_IDE_NDC_UPC_NUM,other,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+outpatient,REV_CNTR_UNIT_CNT,other,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,1
+outpatient,REV_CNTR_RATE_AMT,financial,2.76,2548,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,192.67 | 396.03 | 290.48
+outpatient,REV_CNTR_BLOOD_DDCTBL_AMT,financial,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,0
+outpatient,REV_CNTR_CASH_DDCTBL_AMT,financial,0.0,66,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,0.00 | 233.00 | 232.99
+outpatient,REV_CNTR_COINSRNC_WGE_ADJSTD_C,other,0.0,979,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,2044.97 | 2387.27 | 1734.83
+outpatient,REV_CNTR_RDCD_COINSRNC_AMT,financial,0.0,979,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,2044.97 | 2387.27 | 1734.83
+outpatient,REV_CNTR_1ST_MSP_PD_AMT,financial,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,0
+outpatient,REV_CNTR_2ND_MSP_PD_AMT,financial,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,0
+outpatient,REV_CNTR_PRVDR_PMT_AMT,financial,0.0,2689,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,10224.89 | 11936.39 | 8674.15
+outpatient,REV_CNTR_BENE_PMT_AMT,financial,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,0
+outpatient,REV_CNTR_PTNT_RSPNSBLTY_PMT,financial,0.0,1026,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,2044.97 | 2387.27 | 1734.83
+outpatient,REV_CNTR_PMT_AMT_AMT,financial,0.0,2656,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,10224.89 | 11936.39 | 8674.15
+outpatient,REV_CNTR_TOT_CHRG_AMT,financial,0.0,2704,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,8179.92 | 9549.12 | 6939.32
+outpatient,REV_CNTR_NCVRD_CHRG_AMT,financial,0.0,269,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,0.00 | 233.00 | 60.70
+outpatient,REV_CNTR_STUS_IND_CD,indicator,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,4
+outpatient,REV_CNTR_NDC_QTY,other,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+outpatient,REV_CNTR_NDC_QTY_QLFR_CD,other,100.0,0,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample.,
+outpatient,RNDRNG_PHYSN_UPIN,provider,0.0,1,REVIEW_CONSTANT,Medium,Column contains one or no distinct values in the profiling sample., 
+outpatient,RNDRNG_PHYSN_NPI,provider,0.0,63,KEEP_INITIAL,Low,Column has acceptable initial completeness and variation.,9999995696 | 9999987891 | 9999995399

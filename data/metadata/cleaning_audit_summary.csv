@@ -1,0 +1,5 @@
+dataset_name,source_file,raw_rows,cleaned_rows,duplicates_removed,source_column_count,output_column_count,missing_cells_after_standardisation,missing_cell_percentage,bene_id_missing,clm_id_available,clm_id_missing,output_parts,output_size_mb
+beneficiary_2023,beneficiary_2023.csv,9179,9179,0,185,189,580124,34.16,0,False,,1,0.96
+carrier,carrier.csv,1121004,1121004,0,96,100,20719689,19.25,0,True,0.0,23,23.69
+inpatient,inpatient.csv,58066,58066,0,197,201,5453778,47.68,0,True,0.0,2,3.56
+outpatient,outpatient.csv,575092,575092,0,162,166,46823682,50.26,0,True,0.0,12,42.74
