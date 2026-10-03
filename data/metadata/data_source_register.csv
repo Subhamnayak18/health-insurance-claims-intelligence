@@ -1,15 +1,8 @@
-source_id,source_name,owner,geography,source_type,data_level,planned_usage,selected,provenance_category,main_limitation
-SRC001,CMS Synthetic Medicare Claims PUF,CMS,United States,Official public synthetic dataset,Beneficiary claim and claim line,Primary operational claims source,Yes,SOURCE_SYNTHETIC_CMS,Synthetic and missing complete adjudication workflow
-SRC002,CMS Medicare Physician and Other Practitioners,CMS,United States,Official public aggregate dataset,Provider and service,Provider benchmarking,Yes,SOURCE_REAL_AGGREGATE_CMS,Not individual claim level
-SRC003,CMS DE-SynPUF,CMS,United States,Official public synthetic dataset,Beneficiary and claim,Backup large-scale claims source,No,SOURCE_SYNTHETIC_CMS,Older 2008 to 2010 structure
-SRC004,AHRQ SyH-DR,AHRQ,United States,Restricted-access synthetic dataset,Person claim and provider,Alternative all-payer source,No,SOURCE_SYNTHETIC_CMS,Application and data-use agreement required
-SRC005,Healthcare Provider Fraud Detection,Kaggle community,United States,Community-hosted derived dataset,Claim and provider,Optional fraud modelling benchmark,Optional,SOURCE_SYNTHETIC_CMS,Provider-level fraud target and weaker lineage
-SRC006,PM-JAY Dashboard and Reference Material,NHA,India,Official public aggregate and reference source,Programme hospital and package,India comparison and business-rule reference,No,SOURCE_REAL_AGGREGATE_CMS,No reusable detailed claim-level operational data
-SRC007,IRDAI Reports,IRDAI,India,Official regulatory reports,Insurer and market aggregate,India market context,No,SOURCE_REAL_AGGREGATE_CMS,Aggregate rather than claim levelsource_id,source_name,owner,geography,source_type,data_level,planned_usage,selected,provenance_category,main_limitation
-SRC001,CMS Synthetic Medicare Claims PUF,CMS,United States,Official public synthetic dataset,Beneficiary claim and claim line,Primary operational claims source,Yes,SOURCE_SYNTHETIC_CMS,Synthetic and missing complete adjudication workflow
-SRC002,CMS Medicare Physician and Other Practitioners,CMS,United States,Official public aggregate dataset,Provider and service,Provider benchmarking,Yes,SOURCE_REAL_AGGREGATE_CMS,Not individual claim level
-SRC003,CMS DE-SynPUF,CMS,United States,Official public synthetic dataset,Beneficiary and claim,Backup large-scale claims source,No,SOURCE_SYNTHETIC_CMS,Older 2008 to 2010 structure
-SRC004,AHRQ SyH-DR,AHRQ,United States,Restricted-access synthetic dataset,Person claim and provider,Alternative all-payer source,No,SOURCE_SYNTHETIC_CMS,Application and data-use agreement required
-SRC005,Healthcare Provider Fraud Detection,Kaggle community,United States,Community-hosted derived dataset,Claim and provider,Optional fraud modelling benchmark,Optional,SOURCE_SYNTHETIC_CMS,Provider-level fraud target and weaker lineage
-SRC006,PM-JAY Dashboard and Reference Material,NHA,India,Official public aggregate and reference source,Programme hospital and package,India comparison and business-rule reference,No,SOURCE_REAL_AGGREGATE_CMS,No reusable detailed claim-level operational data
-SRC007,IRDAI Reports,IRDAI,India,Official regulatory reports,Insurer and market aggregate,India market context,No,SOURCE_REAL_AGGREGATE_CMS,Aggregate rather than claim level
+source_id,source_name,owner,geography,source_type,data_level,usage,status,provenance_category,main_limitation
+SRC001,CMS Synthetic Medicare Claims PUF,CMS,United States,Public synthetic dataset,Beneficiary and claim line,Implemented claims source,Present locally,SOURCE_SYNTHETIC_CMS,Synthetic; no adjudication event history
+SRC002,CMS Medicare Physician and Other Practitioners,CMS,United States,Public aggregate dataset,Provider and service,Original benchmark proposal,Not implemented,SOURCE_REAL_AGGREGATE_CMS,Not individual claims; no local source files
+SRC003,CMS DE-SynPUF,CMS,United States,Public synthetic dataset,Beneficiary and claim,Alternative considered,Not used,SOURCE_SYNTHETIC_CMS,Older 2008 to 2010 structure
+SRC004,AHRQ SyH-DR,AHRQ,United States,Restricted synthetic dataset,Person and claim,Alternative considered,Not used,NOT_USED,Access requirements not evaluated in this implementation
+SRC005,Healthcare Provider Fraud Detection,Kaggle community,United States,Community dataset,Claim and provider,Original modelling proposal,Not implemented,NOT_USED,Lineage and target not validated
+SRC006,PM-JAY Dashboard and Reference Material,NHA,India,Public aggregate and reference,Programme and hospital,Original geography comparison,Not used,NOT_USED,No local claim-level source
+SRC007,IRDAI Reports,IRDAI,India,Regulatory reports,Insurer and market,Original geography comparison,Not used,NOT_USED,Aggregate data only

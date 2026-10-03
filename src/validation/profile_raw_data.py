@@ -50,7 +50,7 @@ def load_sample(file_path: Path) -> pd.DataFrame:
         encoding="utf-8-sig",
         keep_default_na=True,
         na_values=NA_VALUES,
-        on_bad_lines="warn",
+        on_bad_lines="error",
     )
 
     dataframe.columns = dataframe.columns.str.strip()

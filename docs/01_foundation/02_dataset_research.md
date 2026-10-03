@@ -1,4 +1,6 @@
-.# Dataset Research and Selection
+# Original dataset research
+
+Historical selection notes. Only the CMS synthetic claims and beneficiary files are present; external benchmarking and modelling datasets below were proposals, not implemented integrations.
 
 ## Geography Decision
 

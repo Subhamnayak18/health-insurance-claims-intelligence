@@ -1,4 +1,6 @@
-# Project Definition
+# Original project proposal
+
+Historical planning document. Implemented scope and verified results are in the repository README and docs/verification.md. Forecasting, ML models, Snowflake, appeals/recovery processing and cloud deployment in this proposal were not implemented.
 
 ## Project Title
 
@@ -109,7 +111,3 @@ Every field will be identified as one of the following:
 * Project-generated synthetic.
 * Derived.
 * Assumed reference.
-
-## Interview Explanation
-
-I designed the project as a US Medicare-style claims platform after comparing Indian and US public datasets. US sources provide stronger official claim and claim-line structures, while Indian official sources are mainly aggregate or reference data. I use official CMS synthetic claim-level data as the operational backbone, real public CMS provider aggregates for external benchmarking and clearly documented project-generated data for adjudication, denials, work queues, appeals and investigations. The machine-learning models only prioritise claims for human review and never make automatic rejection decisions.

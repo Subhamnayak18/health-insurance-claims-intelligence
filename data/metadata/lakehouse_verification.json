@@ -1,0 +1,87 @@
+{
+  "sources": {
+    "carrier": "ff63b2070eab6754f8664670b415cbcd65fe759249afa2a7e147eb82563dffce",
+    "inpatient": "4085f4ee4519c9dcee8c124d127f9feb7062053a103a94f72d7a576a4b3031e6",
+    "outpatient": "0d9f6544522c6caca8fa03cd22b6621b8ab712786a75bd26933711692f5c0584"
+  },
+  "quality": {
+    "carrier": {
+      "raw_lines": 1121004,
+      "clean_lines": 1121004,
+      "exact_duplicates_removed": 0,
+      "invalid_rows": 0,
+      "conflicting_line_keys": 0,
+      "conflicting_claim_headers": 0,
+      "negative_payment_lines": 0,
+      "missing_provider_lines": 0
+    },
+    "inpatient": {
+      "raw_lines": 58066,
+      "clean_lines": 58066,
+      "exact_duplicates_removed": 0,
+      "invalid_rows": 0,
+      "conflicting_line_keys": 0,
+      "conflicting_claim_headers": 0,
+      "negative_payment_lines": 0,
+      "missing_provider_lines": 0
+    },
+    "outpatient": {
+      "raw_lines": 575092,
+      "clean_lines": 575092,
+      "exact_duplicates_removed": 0,
+      "invalid_rows": 0,
+      "conflicting_line_keys": 0,
+      "conflicting_claim_headers": 0,
+      "negative_payment_lines": 0,
+      "missing_provider_lines": 0
+    }
+  },
+  "summary": [
+    {
+      "CLAIM_TYPE": "CARRIER",
+      "claims": 90705,
+      "lines": 1121004,
+      "payment": "127158142.15"
+    },
+    {
+      "CLAIM_TYPE": "INPATIENT",
+      "claims": 20867,
+      "lines": 58066,
+      "payment": "141046614.08"
+    },
+    {
+      "CLAIM_TYPE": "OUTPATIENT",
+      "claims": 402653,
+      "lines": 575092,
+      "payment": "730871561.85"
+    }
+  ],
+  "verified_at_utc": "2026-10-02T16:30:22.498068+00:00",
+  "gold_rows": {
+    "dim_date": 2928,
+    "dim_provider": 13136,
+    "fact_claim": 514225,
+    "monthly_claims": 292,
+    "provider_claims": 14810
+  },
+  "claim_from_min": "2015-02-25",
+  "claim_thru_max": "2023-03-02",
+  "total_claim_payment": "999076318.08",
+  "replay_unchanged": true,
+  "all_original_claim_keys_line_counts_payments_match": true,
+  "sql_gold_rows": {
+    "dim_date": 2928,
+    "dim_provider": 13136,
+    "fact_claim": 514225,
+    "monthly_claims": 292,
+    "provider_claims": 14810
+  },
+  "original_sql_fact_rows_preserved": 514225,
+  "automated_test_cases_passed": 12,
+  "legacy_headers_and_seeded_operations_reproduced": true,
+  "legacy_excel_export_rows": {
+    "full": 514225,
+    "sample": 50000
+  },
+  "credential_pattern_scan_candidates": 0
+}

@@ -14,7 +14,7 @@ SELECT
         100.0 * SUM(CASE
             WHEN ClaimStatus IN ('APPROVED', 'PARTIALLY_APPROVED')
             THEN 1 ELSE 0
-        END) / COUNT(*)
+        END) / NULLIF(COUNT(*), 0)
         AS DECIMAL(8,2)
     ) AS ApprovalRate,
 
@@ -22,7 +22,7 @@ SELECT
         100.0 * SUM(CASE
             WHEN ClaimStatus = 'REJECTED'
             THEN 1 ELSE 0
-        END) / COUNT(*)
+        END) / NULLIF(COUNT(*), 0)
         AS DECIMAL(8,2)
     ) AS RejectionRate,
 

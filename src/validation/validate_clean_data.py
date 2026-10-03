@@ -443,10 +443,7 @@ def main() -> None:
     validation_results: list[dict] = []
 
     duplicate_beneficiary_keys = int(
-        beneficiary_keys.duplicated(
-            subset=["BENE_ID", "BENEFICIARY_YEAR"],
-            keep=False,
-        ).sum()
+        sum(row["duplicate_beneficiary_year_keys"] for row in beneficiary_audit)
     )
 
     add_result(
@@ -483,6 +480,9 @@ def main() -> None:
     )
 
     write_report(results_dataframe)
+
+    if results_dataframe["status"].eq("FAIL").any():
+        raise ValueError("Critical data-quality checks failed; inspect the validation report")
 
     logger.info("Beneficiary history created successfully")
     logger.info("Validation results saved to %s", results_path)

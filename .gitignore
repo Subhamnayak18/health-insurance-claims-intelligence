@@ -4,11 +4,19 @@ __pycache__/
 .ipynb_checkpoints/
 .pytest_cache/
 .venv/
+.venv-*/
+.runtime/
+.spark-local/
+spark-warehouse/
+artifacts/
+derby.log
+metastore_db/
 venv/
 
 # Environment and credentials
 .env
 .env.*
+!.env.example
 *.pem
 *.key
 secrets/
@@ -19,6 +27,8 @@ data/raw/*
 !data/raw/README.md
 data/processed/*
 data/synthetic/*
+data/lakehouse/
+data/exports/
 *.zip
 *.7z
 *.parquet

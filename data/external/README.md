@@ -1,5 +1,7 @@
 # External Reference Data
 
+No external reference datasets are currently present. The items below were proposed extensions, not implemented integrations.
+
 This folder will store supporting public reference files such as:
 
 - Provider benchmark data.

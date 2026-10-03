@@ -116,7 +116,7 @@ def process_dataset(
         encoding="utf-8-sig",
         keep_default_na=True,
         na_values=NA_VALUES,
-        on_bad_lines="warn",
+        on_bad_lines="error",
     )
 
     for chunk_number, chunk in enumerate(reader, start=1):

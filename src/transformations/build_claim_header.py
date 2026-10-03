@@ -92,7 +92,10 @@ def coalesce_columns(
             dtype="string",
         )
 
-    return dataframe[available].bfill(axis=1).iloc[:, 0]
+    values = dataframe[available[0]].copy()
+    for column in available[1:]:
+        values = values.combine_first(dataframe[column])
+    return values
 
 
 def to_numeric(

@@ -152,6 +152,10 @@ BEGIN TRY
     INNER JOIN dim.[Date] d_analysis
         ON d_analysis.FullDate = s.ANALYSIS_DATE;
 
+    IF (SELECT COUNT_BIG(*) FROM fact.[Claim]) <>
+       (SELECT COUNT_BIG(*) FROM stg.ClaimOperations)
+        THROW 51000, 'Fact load dropped rows: check dimension mappings', 1;
+
     COMMIT TRANSACTION;
 
     PRINT 'Fact claim loading completed successfully.';

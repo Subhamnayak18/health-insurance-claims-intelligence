@@ -43,8 +43,8 @@ BEGIN TRY
         CONVERT(CHAR(7), FullDate, 120),
         DATENAME(WEEKDAY, FullDate),
         CASE
-            WHEN DATENAME(WEEKDAY, FullDate)
-                 IN ('Saturday', 'Sunday') THEN 1
+            WHEN DATEDIFF(DAY, '19000101', FullDate) % 7
+                 IN (5, 6) THEN 1
             ELSE 0
         END
     FROM AllDates d
